@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Uncraftables
 
-## Setup
+Uncraftables implements crafting recipes for uncraftable vanilla items.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Installation
+
+The downloaded .jar file should be placed in the ```.minecraft\mods``` directory along with [Fabric Loader](https://fabricmc.net) and [Fabric API](https://modrinth.com/mod/fabric-api).
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is licensed under the [MIT License](https://github.com/fzayy/Uncraftables/blob/1.19/LICENSE).
