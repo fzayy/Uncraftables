@@ -1,29 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "uncraftables-fabric",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Uncraftables",
+  "description": "Implements crafting recipes for uncraftable vanilla items.",
   "authors": [
-    "Me!"
+    "zay"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/fzayy/Uncraftables"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
-  "environment": "*",
+  "environment": "server",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.fzayy.UncraftablesMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "uncraftables-fabric.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +29,5 @@
     "fabric-api": "*",
     "minecraft": "~1.19.4",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
