@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "uncraftables-fabric:diamond_horse_armor"
+        "recipe": "uncraftables:diamond_horse_armor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "uncraftables-fabric:diamond_horse_armor"
+      "uncraftables:diamond_horse_armor"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "uncraftables-fabric",
+  "id": "uncraftables",
   "version": "${version}",
 
   "name": "Uncraftables",
@@ -13,7 +13,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/uncraftables-fabric/icon.png",
+  "icon": "assets/uncraftables/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,7 +22,7 @@
     ]
   },
   "mixins": [
-    "uncraftables-fabric.mixins.json"
+    "uncraftables.mixins.json"
   ],
 
   "depends": {

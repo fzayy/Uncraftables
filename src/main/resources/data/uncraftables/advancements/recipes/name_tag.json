@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "uncraftables-fabric:name_tag"
+        "recipe": "uncraftables:name_tag"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "uncraftables-fabric:name_tag"
+      "uncraftables:name_tag"
     ]
   }
 }

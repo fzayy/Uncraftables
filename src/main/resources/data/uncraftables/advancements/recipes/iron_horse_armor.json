@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_phantom_membrane": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:phantom_membrane"
+              "minecraft:iron_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "uncraftables-fabric:elytra"
+        "recipe": "uncraftables:iron_horse_armor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_phantom_membrane",
+      "has_iron_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "uncraftables-fabric:elytra"
+      "uncraftables:iron_horse_armor"
     ]
   }
 }

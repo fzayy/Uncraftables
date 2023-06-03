@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_prismarine_shard": {
+    "has_leather": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:prismarine_shard"
+              "minecraft:leather"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "uncraftables-fabric:trident"
+        "recipe": "uncraftables:saddle"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_prismarine_shard",
+      "has_leather",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "uncraftables-fabric:trident"
+      "uncraftables:saddle"
     ]
   }
 }

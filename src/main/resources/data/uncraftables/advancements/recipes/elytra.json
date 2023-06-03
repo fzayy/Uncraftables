@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_leather": {
+    "has_phantom_membrane": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:leather"
+              "minecraft:phantom_membrane"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "uncraftables-fabric:saddle"
+        "recipe": "uncraftables:elytra"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_leather",
+      "has_phantom_membrane",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "uncraftables-fabric:saddle"
+      "uncraftables:elytra"
     ]
   }
 }
