@@ -13,6 +13,7 @@
   },
 
   "license": "MIT",
+  "icon": "assets/uncraftables-fabric/icon.png",
 
   "environment": "*",
   "entrypoints": {
