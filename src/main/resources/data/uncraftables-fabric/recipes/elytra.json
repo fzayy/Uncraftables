@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "~": {
+      "item": "minecraft:string"
+    },
+    ".": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    "#~#",
+    "#.#",
+    "# #"
+  ],
+  "result": {
+    "item": "minecraft:elytra"
+  },
+  "show_notification": true
+}
