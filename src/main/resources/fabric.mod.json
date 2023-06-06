@@ -9,7 +9,9 @@
     "zay"
   ],
   "contact": {
-    "sources": "https://github.com/fzayy/Uncraftables"
+    "sources": "https://github.com/fzayy/Uncraftables",
+    "homepage": "https://modrinth.com/mod/uncraftables",
+    "issues": "https://github.com/fzayy/Uncraftables/issues"
   },
 
   "license": "MIT",

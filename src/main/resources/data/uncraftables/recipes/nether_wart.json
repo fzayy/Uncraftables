@@ -3,19 +3,15 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "~": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "pattern": [
-    " ~~",
-    " #~",
-    "#  "
+    "#"
   ],
   "result": {
-    "item": "minecraft:trident"
+    "item": "minecraft:nether_wart",
+    "count": 9
   },
   "show_notification": true
 }

@@ -3,19 +3,17 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:obsidian"
     },
     "~": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:ghast_tear"
     }
   },
   "pattern": [
-    " ~~",
-    " #~",
-    "#  "
+    "#~"
   ],
   "result": {
-    "item": "minecraft:trident"
+    "item": "minecraft:crying_obsidian"
   },
   "show_notification": true
 }
